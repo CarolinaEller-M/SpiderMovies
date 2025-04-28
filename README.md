@@ -1,6 +1,6 @@
 # � SpiderMovies - Plataforma de Streaming de Filmes
 
-![Banner do Projeto]![alt text](image.png)
+![alt text](image.png)
 
 Um site moderno para explorar, descobrir e assistir a filmes e séries.
 
