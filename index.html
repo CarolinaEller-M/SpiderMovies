@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider | Movies</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="body">
+
+    <header id="header" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+           
+            <a href="#" id="logo" class="navbar-brand me-0">
+                <i class='bx bxs-camera-movie'></i> Spider Movies
+            </a>
+
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul id="navbar" class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#movies" class="nav-link">Filmes</a></li>
+                    <li class="nav-item"><a href="#coming" class="nav-link">Em breve</a></li>
+                    <li class="nav-item"><a href="#newsletter" class="nav-link">CineMundo</a></li>
+                </ul>
+
+              
+                <div class="d-flex">
+                    <a href="login.html" target="_blank" class="btn btn-primary">Entrar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <main class="container mt-5">
+        <section id="movies" class="mb-5">
+            <h2 class="heading mb-4">Lançamentos da Semana</h2>
+            <div class="row g-4 mb-4">  
+            </div>
+        </section>
+
+        <section class="plans-section">
+            <div class="container">
+                <h2 class="section-title">Assisne Já!</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="plan-card gold-plan">
+                            <h3>Plano Mensal</h3>
+                            <p class="price">R$ 29,90<span>/mês</span></p>
+                            <ul class="plan-features">
+                                <li>Acesso a todos os filmes</li>
+                                <li>Qualidade Full HD</li>
+                                <li>2 dispositivos simultâneos</li>
+                            </ul>
+                            <button class="plan-btn">Assinar</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="plan-card black-plan">
+                            <h3>Plano Anual</h3>
+                            <p class="price">R$ 299,90<span>/ano</span></p>
+                            <ul class="plan-features">
+                                <li>Acesso a todos os filmes</li>
+                                <li>Qualidade 4K Ultra HD</li>
+                                <li>4 dispositivos simultâneos</li>
+                                <li>2 meses grátis</li>
+                            </ul>
+                            <button class="plan-btn">Assinar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="coming" class="mb-5">
+            <h2 class="heading mb-4">Em breve</h2>
+            <div id="comingCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                        
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming1.jpg" alt="Em breve 1">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 1</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming10.jpg"alt="Em breve 2">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 2</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming9.jpg" alt="Em breve 3">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 3</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming8.jpg" alt="Em breve 4">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 4</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <!-- Segundo conjunto de 4 filmes -->
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming2.jpg" alt="Em breve 5">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 5</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming3.jpg" alt="Em breve 6">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 6</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming6.jpeg" alt="Em breve 7">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 7</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="card h-100 bg-dark text-secondary border-0">
+                                    <div class="img-container overflow-hidden rounded">
+                                        <img class="card-img-top w-100" style="height: 450px; object-fit: cover;"
+                                            src="assets/img/coming5.jpg" alt="Em breve 8">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-white">Em breve 8</h5>
+                                        <p class="card-text">120 min | ação</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#comingCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#comingCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <section class="newsletter container py-5" id="newsletter">
+        <h2 class="heading text-center mb-4">CineMundo</h2>
+        <h2 class="text-center mb-4">Inscreva-se para receber as últimas notícias <br>
+            sobre filmes e séries</h2>
+        <form class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+            <input type="email" class="form-control" placeholder="Digite seu email" required style="max-width: 300px;">
+            <button type="submit" class="btn btn-primary">Inscrever-se</button>
+        </form>
+    </section>
+
+    <footer class="footer-aluno">
+
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Informações do(a) Aluno(a)</h3>
+                    <ul class="aluno-info">
+                        <li><strong>Nome:</strong>   Carolina Eller Marinho de Paula</li>
+                        <li><strong>RA:</strong>     878827</li>
+                        <li><strong>Curso:</strong>  Analise de Desenvolvimento de Sistemas</li>
+                        <li><strong>Turma:</strong>  Noite</li>
+                        <li><strong>Email:</strong> carolina.eller@sga.pucminas.br</li>
+                    </ul>
+                 </div>
+            
+                 <div class="footer-section">
+                    <h3>Sobre</h3>
+                    <p>Projeto desenvolvido para a disciplina de Desenvolvimento de Interfaces Web</p>
+                    <p>Professor(a):  Túlio Henrique</p>
+                    <p>Instituição:   Puc Minas São Gabriel</p>
+                    <p>Ano: 2025</p>
+                </div>
+            </div>
+
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
